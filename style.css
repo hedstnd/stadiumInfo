@@ -18,4 +18,5 @@ tr:last-child, tr:last-child td:last-child {
 table {
 	border: none;
 	white-space: nowrap;
+	overflow-x: scroll;
 }
