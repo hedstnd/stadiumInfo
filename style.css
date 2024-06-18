@@ -1,0 +1,21 @@
+table, tr, td, th {
+	border: 1px solid black;
+	/* border-collapse: collapse; */
+	border-spacing:0;
+}
+table, tr:first-child, th:first-child {
+	border-top-left-radius: 10px !important;
+}
+tr:last-child, tr:last-child td:first-child {
+	border-bottom-left-radius: 10px;
+}
+tr:first-child, tr:first-child th:last-child {
+	border-top-right-radius: 10px;
+}
+tr:last-child, tr:last-child td:last-child {
+	border-bottom-right-radius: 10px;
+}
+table {
+	border: none;
+	white-space: nowrap;
+}
