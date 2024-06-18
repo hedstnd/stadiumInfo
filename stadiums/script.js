@@ -11,6 +11,7 @@ window.onload = function() {
 		console.log(value);
 		var stadium = value.venues[0];
 		document.getElementById("stadName").innerText = value.venues[0].name + " ("+stadium.season+")";
+		document.getElementById("title").innerText = stadium.season + " " + stadium.name;
 		document.getElementById("location").innerText = value.venues[0].location.city + ",";
 		if (value.venues[0].location.country == "USA") {
 			document.getElementById("location").innerText+= " " + value.venues[0].location.stateAbbrev;
